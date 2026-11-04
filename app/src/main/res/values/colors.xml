@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Açılış penceresi; Compose temasının arka planıyla aynı olmalı (ui/theme/Theme.kt). -->
+    <color name="window_background">#FFEEEEF1</color>
+    <color name="window_background_dark">#FF121212</color>
+</resources>

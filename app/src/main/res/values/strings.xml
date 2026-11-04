@@ -1,0 +1,346 @@
+<resources>
+    <!-- Ana ekran simgesinin altında görünen kısa ad. Uzun ad sığmadığı için kesilir. -->
+    <string name="app_name">Yazki</string>
+    <!-- Play Store başlığı ve uygulama içi başlık (en fazla 30 karakter). -->
+    <string name="app_title">Yazki: Sohbet Analizi</string>
+    <string name="share_target_label">Yazki ile analiz et</string>
+
+    <!-- Sekmeler -->
+    <string name="tab_home">Ana Sayfa</string>
+    <string name="tab_report">Karne</string>
+    <string name="tab_settings">Ayarlar</string>
+    <string name="tab_about">Hakkında</string>
+
+    <!-- Ortak eylemler -->
+    <string name="action_open_report">Karneyi aç</string>
+    <string name="action_play_story">Hikâyeyi izle</string>
+    <string name="action_dismiss">Tamam</string>
+    <string name="action_close">Kapat</string>
+
+    <!-- Ana sayfa -->
+    <string name="home_hero_title">Sohbetin seni anlatsın</string>
+    <string name="home_tagline">Türkçe sohbetlerini anlayan, eğlenceli ve ayrıntılı sohbet analizi.</string>
+    <string name="home_brand_subtitle">Sohbet Analizi</string>
+    <string name="home_pick_file">Sohbet dosyası seç</string>
+    <string name="home_privacy">Gizliliğine özen gösteriyoruz</string>
+    <string name="home_last_analysis">Seçili sohbet</string>
+    <string name="home_last_analysis_detail">%1$s mesaj · %2$s kişi</string>
+    <string name="feature_turkish_title">Türkçe Analiz</string>
+    <string name="feature_private_title">Gizlilik</string>
+    <string name="feature_private_body">Veri gizliliğine önem verir</string>
+    <string name="feature_report_title">Ayrıntılı Karne</string>
+    <string name="home_guide_title">Sohbet nasıl aktarılır?</string>
+    <string name="guide_tab_share">Paylaş ile</string>
+    <string name="guide_tab_file">Dosyadan</string>
+    <string-array name="guide_share_steps">
+        <item>WhatsApp’ta analiz etmek istediğin sohbeti aç.</item>
+        <item>Sağ üstteki ⋮ menüsünden Diğer → Sohbeti dışa aktar’a dokun.</item>
+        <item>“Medya olmadan”ı seç; hem hızlı hem yeterli.</item>
+        <item>Açılan paylaş menüsünde Yazki’yi seç. Gerisi bizde.</item>
+    </string-array>
+    <string-array name="guide_file_steps">
+        <item>Dışa aktarılmış .txt veya .zip dosyasını telefonuna kaydet (İndirilenler, Drive, e-posta).</item>
+        <item>Bu ekranda “Sohbet dosyası seç”e dokun.</item>
+        <item>Dosyayı bulup seç; analiz hemen başlar.</item>
+        <item>iPhone’dan dışa aktarılmış sohbetler de desteklenir.</item>
+    </string-array>
+
+    <!-- Yükleme ve hata -->
+    <string name="loading">Sohbet okunuyor…</string>
+    <string name="loading_hint">Sohbetin büyüklüğüne göre birkaç saniye sürebilir.</string>
+    <string name="error_title">Bu dosya okunamadı</string>
+    <string name="error_no_file">Paylaşılan içerikte sohbet dosyası bulunamadı.</string>
+    <string name="error_not_chat">Dosya açılamadı. WhatsApp’tan dışa aktarılmış bir .txt veya .zip dosyası seçtiğinden emin ol.</string>
+    <string name="error_no_messages">Dosyada mesaj bulunamadı. WhatsApp’tan dışa aktarılmış bir sohbet olduğundan emin ol.</string>
+
+    <!-- Boş durumlar -->
+    <string name="empty_report_title">Karnen burada görünecek</string>
+    <string name="empty_report_body">Bir sohbet seç ya da kayıtlı sohbetlerinden birini aç; kim daha çok yazıyor, kim hep ilk mesajı atıyor, hepsi burada.</string>
+    <string name="empty_stats_title">Henüz istatistik yok</string>
+    <string name="empty_stats_body">Sohbet dosyasını seçtiğinde saat saat, kişi kişi tüm ayrıntılar burada olacak.</string>
+
+    <!-- Karne -->
+    <string name="report_label">SOHBET KARNESİ</string>
+    <string name="report_untitled">Sohbetin</string>
+    <string name="report_share_title">Mesaj payı</string>
+    <string name="report_others">Diğerleri</string>
+    <string name="result_date_range">%1$s – %2$s</string>
+    <string name="result_entertainment_note">Sonuçlar eğlence amaçlıdır.</string>
+    <string name="warning_export_limit">Bu sohbette %1$s mesaj var. WhatsApp dışa aktarımı en yeni yaklaşık 40 bin mesajla sınırlı; eski mesajlar dosyada olmayabilir.</string>
+    <string name="warning_unparsed">%1$s satır tanınamadı (%2$s). Sonuçlar eksik olabilir.</string>
+
+    <!-- Karne öne çıkanları (hikâye modu da kullanır) -->
+    <string name="hl_total_title">Toplam mesaj</string>
+    <string name="hl_total_detail">%1$s günde, günde ortalama %2$s mesaj</string>
+    <string name="hl_top_talker_title">En çok yazan</string>
+    <string name="hl_top_talker_detail">Mesaj payı: %1$s</string>
+    <string name="hl_starter_title">Sohbeti en çok başlatan</string>
+    <string name="hl_starter_detail">%1$s kez ilk mesajı attı</string>
+    <string name="hl_fastest_title">Işık hızı</string>
+    <string name="hl_fastest_detail">Medyan cevap süresi: %1$s</string>
+    <string name="hl_night_title">Gece kuşu</string>
+    <string name="hl_night_detail">Gece 00–05 arası %1$s mesaj</string>
+    <string name="hl_laughter_title">Kahkaha şampiyonu</string>
+    <string name="hl_laughter_detail">%1$s kahkaha: sjsj, haha, 😂</string>
+    <string name="hl_streak_title">En uzun seri</string>
+    <string name="hl_busiest_title">Rekor gün</string>
+    <string name="hl_busiest_detail">O gün %1$s mesaj atıldı</string>
+    <string name="hl_emoji_title">En sevilen emoji</string>
+    <string name="hl_emoji_detail">%1$s kez kullanıldı</string>
+    <string name="hl_okay_title">“Tamam” sayacı</string>
+    <string name="hl_okay_detail">En çok %1$s diyor</string>
+    <string name="hl_love_title">Sevgi sayacı</string>
+    <string name="hl_love_detail">En romantik: %1$s</string>
+    <string name="hl_apology_title">Özür sayacı</string>
+    <string name="hl_apology_detail">En çok özür dileyen: %1$s</string>
+    <string name="hl_double_title">Çift mesaj ustası</string>
+    <string name="hl_double_detail">Cevap beklemeden %1$s kez tekrar yazdı</string>
+    <string name="hl_silence_title">En uzun sessizlik</string>
+    <string name="hl_silence_detail">%1$s tarihinden sonra</string>
+
+    <!-- Hikâye modu -->
+    <string name="story_intro_label">SOHBET KARNESİ</string>
+    <string name="story_intro_hint">Sağa dokun: ileri · Sola dokun: geri</string>
+    <string name="story_outro_title">Hepsi bu kadar!</string>
+    <string name="story_outro_body">%1$s mesaj, %2$s kişi. Ayrıntılar İstatistik sekmesinde.</string>
+    <string name="story_outro_details">Karneye dön</string>
+    <string name="story_replay">Baştan izle</string>
+
+    <!-- İstatistik -->
+    <string name="stat_messages">Mesaj</string>
+    <string name="stat_words">Kelime</string>
+    <string name="stat_media">Medya</string>
+    <string name="stat_active_days">Aktif gün</string>
+    <string name="stat_longest_streak">En uzun seri</string>
+    <string name="stat_busiest_day">Rekor gün</string>
+    <string name="stat_links">Bağlantı</string>
+    <string name="value_days">%1$s gün</string>
+    <string name="value_busiest_day">%1$s (%2$s mesaj)</string>
+    <string name="value_none">—</string>
+
+    <string name="section_people">Kişiler</string>
+    <string name="person_summary">%1$s mesaj · %2$s</string>
+    <string name="person_average_words">Ortalama kelime</string>
+    <string name="person_media">Medya</string>
+    <string name="person_started">Başlattığı sohbet</string>
+    <string name="person_ended">Son sözü söyleme</string>
+    <string name="person_median_reply">Medyan cevap süresi</string>
+    <string name="person_double_texts">Çift mesaj</string>
+    <string name="person_ghost">Cevapsız kalma</string>
+    <string name="person_deleted">Silinen mesaj</string>
+    <string name="person_top_words">Sık kelimeler</string>
+
+    <string name="section_time">Zaman</string>
+    <string name="time_monthly">Aylara göre mesaj</string>
+    <string name="time_heatmap">Gün × saat</string>
+    <string name="time_heatmap_hint">Koyu kareler en hareketli saatler</string>
+    <string name="time_night">Gece kuşu (00–05)</string>
+    <string name="time_early">Erkenci (05–08)</string>
+    <string name="time_longest_silence">En uzun sessizlik</string>
+    <string-array name="weekdays_short">
+        <item>Pzt</item>
+        <item>Sal</item>
+        <item>Çar</item>
+        <item>Per</item>
+        <item>Cum</item>
+        <item>Cmt</item>
+        <item>Paz</item>
+    </string-array>
+
+    <string name="section_turkish">Türkçe sayaçlar</string>
+    <string name="counter_laughter">Kahkaha</string>
+    <string name="counter_okay">“Tamam”</string>
+    <string name="counter_love">Sevgi</string>
+    <string name="counter_apology">Özür</string>
+    <string name="counter_right">“Haklısın”</string>
+    <string name="counter_on_my_way">“Geliyorum”</string>
+    <string name="counter_questions">Soru</string>
+    <string name="counter_shouts">BÜYÜK HARF</string>
+
+    <string name="section_emoji">Emojiler</string>
+    <string name="section_links">En çok paylaşılan siteler</string>
+
+    <string name="section_awards">Grup ödülleri</string>
+    <string name="award_most_messages">Çenesi düşük</string>
+    <string name="award_longest_messages">Roman yazarı</string>
+    <string name="award_ghost">Hayalet</string>
+    <string name="award_most_audio">Podcast’çi</string>
+    <string name="award_most_stickers">Sticker kralı</string>
+    <string name="award_fastest_reply">Işık hızı</string>
+    <string name="award_value_messages">%1$s mesaj</string>
+    <string name="award_value_words">mesaj başı %1$s kelime</string>
+    <string name="award_value_count">%1$s adet</string>
+
+    <!-- Hakkında -->
+    <string name="about_version">Sürüm %1$s</string>
+    <string name="about_privacy_title">Gizlilik</string>
+    <string name="about_privacy_1">Gizliliğine önem veriyoruz; sohbetlerin yalnızca analiz için kullanılır.</string>
+    <string name="about_privacy_2">Kayıtlı sohbetlerde mesajların kendisi değil, hesaplanan istatistikler tutulur.</string>
+    <string name="about_privacy_3">Kayıtlı sohbetlerini istediğin zaman Karne › Kayıtlı bölümünden silebilirsin.</string>
+    <string name="about_privacy_4">Kullanmak için hesap açman gerekmez.</string>
+    <string name="about_metrics_title">Ölçümler nasıl hesaplanıyor?</string>
+    <string name="about_metric_started">Sohbeti başlatan</string>
+    <string name="about_metric_started_body">En az 3 saatlik bir sessizlikten sonra ilk mesajı atan kişi; ne yazdığı fark etmez. Gün içinde aralıklarla konuşanlarda kimin başlattığını gösterir.</string>
+    <string name="about_metric_reply">Medyan cevap süresi</string>
+    <string name="about_metric_reply_body">Konuşan kişi değiştiğinde geçen sürenin ortanca değeri. 6 saatten uzun aralar sayılmaz, böylece bir kez geç cevap vermek ortalamayı bozmaz.</string>
+    <string name="about_metric_double">Çift mesaj</string>
+    <string name="about_metric_double_body">Cevap gelmeden, 10 dakikadan uzun bir aradan sonra aynı kişinin tekrar yazması.</string>
+    <string name="about_metric_ghost">Cevapsız kalma</string>
+    <string name="about_metric_ghost_body">Mesajlarının ardından 24 saat içinde cevap gelmeyenlerin oranı.</string>
+    <string name="about_metric_laughter">Kahkaha</string>
+    <string name="about_metric_laughter_body">sjsj, ksks, kdkd, haha, asdfgh gibi klavye kahkahaları ve gülen emojiler.</string>
+    <string name="about_legal_title">Yasal</string>
+    <string name="about_legal_1">Bu uygulama WhatsApp veya Meta ile bağlantılı değildir.</string>
+    <string name="about_legal_2">Sonuçlar eğlence amaçlıdır.</string>
+    <string name="about_legal_3">Yazı tipi: Plus Jakarta Sans, SIL Open Font License 1.1.</string>
+
+    <!-- Ek eylemler -->
+    <string name="action_pick_short">Sohbet seç</string>
+    <string name="action_open_saved">Kayıtlı sohbetler</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_cancel">Vazgeç</string>
+    <string name="home_saved_link">Kayıtlı sohbetler (%1$d)</string>
+
+    <!-- Karne sekmesi üst kısmı -->
+    <string name="hub_current_label">Seçili sohbet</string>
+    <string name="hub_no_chat">Henüz sohbet seçilmedi</string>
+    <string name="hub_report">Karne</string>
+    <string name="hub_stats">İstatistik</string>
+    <string name="hub_saved">Kayıtlı</string>
+    <string name="hub_saved_count">Kayıtlı (%1$d)</string>
+
+    <!-- Kayıtlı sohbetler -->
+    <string name="saved_hint">Aktardığın sohbetler burada saklanır. Birine dokun; Karne ve İstatistik o sohbete göre güncellensin.</string>
+    <string name="saved_empty_title">Henüz kayıtlı sohbet yok</string>
+    <string name="saved_empty_body">WhatsApp’tan aktardığın her sohbet buraya eklenir, istediğin zaman geri dönebilirsin.</string>
+    <string name="saved_selected">Seçili</string>
+    <string name="saved_imported_at">Aktarıldı: %1$s</string>
+    <string name="saved_delete_title">Kayıt silinsin mi?</string>
+    <string name="saved_delete_body">“%1$s” kayıtlı sohbetlerden silinecek. WhatsApp’taki sohbetin etkilenmez.</string>
+    <string name="error_saved_unreadable">Bu kayıt açılamadı. Silip sohbeti yeniden aktarabilirsin.</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_title">Ayarlar</string>
+
+    <!-- Yeni Türkçe ölçümler -->
+    <string name="person_day_starts">Günün ilk mesajı</string>
+    <string name="counter_morning">Günaydın</string>
+    <string name="counter_good_night">İyi geceler</string>
+    <string name="counter_how_are_you">Hal hatır</string>
+    <string name="counter_thanks">Teşekkür</string>
+    <string name="counter_friday">Hayırlı cumalar</string>
+    <string name="counter_day_starts">Günü başlatma</string>
+    <string name="section_address">Hitaplar</string>
+    <string name="section_address_hint">Kim kime nasıl sesleniyor</string>
+    <string name="hl_day_starter_title">Günü başlatan</string>
+    <string name="hl_day_starter_detail">%1$s günün ilk mesajını attı</string>
+    <string name="hl_address_title">En sevilen hitap</string>
+    <string name="hl_address_detail">%1$s kez · en çok %2$s kullanıyor</string>
+    <string name="hl_address_detail_single">%1$s kez kullanıldı</string>
+    <string name="hl_morning_title">Günaydın sayacı</string>
+    <string name="hl_morning_detail">En çok %1$s diyor</string>
+    <string name="hl_night_greet_title">İyi geceler sayacı</string>
+    <string name="hl_night_greet_detail">En çok %1$s diyor</string>
+    <string name="hl_how_title">Hal hatır soran</string>
+    <string name="hl_how_detail">En çok soran: %1$s</string>
+    <string name="hl_thanks_title">Teşekkür sayacı</string>
+    <string name="hl_thanks_detail">En kibar: %1$s</string>
+    <string name="hl_friday_title">Hayırlı cumalar</string>
+    <string name="hl_friday_detail">En çok %1$s gönderiyor</string>
+    <string name="about_metric_day">Günü başlatan</string>
+    <string name="about_metric_day_body">O günün ilk mesajını atan kişi. Sohbet başlatmadan farklı olarak her gün bir kez sayılır.</string>
+    <string name="about_metric_address">Hitaplar</string>
+    <string name="about_metric_address_body">knk, aşkım, sevgilim, hocam gibi seslenmeler. Uzatılmış yazımlar (sevgilimmm, günaydınnn) da tanınır.</string>
+    <string name="duration_within_minute">1 dk içinde</string>
+
+    <!-- Ek eylemler (2) -->
+    <string name="action_back">Geri</string>
+    <string name="action_continue">Devam</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_edit_options">Analiz ayarları</string>
+
+    <!-- Sohbet türleri -->
+    <string name="type_friend">Arkadaş</string>
+    <string name="type_friend_sub">Bir arkadaşınla birebir sohbet</string>
+    <string name="type_friend_group">Arkadaş Grubu</string>
+    <string name="type_friend_group_sub">Kanka grupları, ev ve oda arkadaşları</string>
+    <string name="type_partner">Sevgili &amp; Flört</string>
+    <string name="type_partner_sub">Sevgilin, eşin ya da flörtün</string>
+    <string name="type_family">Aile</string>
+    <string name="type_family_sub">Aile grubu ya da aileden biri</string>
+    <string name="type_work">İş &amp; Okul</string>
+    <string name="type_work_sub">İş yeri, sınıf, kulüp ve proje grupları</string>
+
+    <!-- Kurulum: tür + analiz ayarları -->
+    <string name="setup_type_title">Bu nasıl bir sohbet?</string>
+    <string name="setup_type_body">Karnen sohbetin türüne göre hazırlanır; arkadaş grubunda romantizm, iş grubunda gece kuşu aranmaz.</string>
+    <string name="setup_suggested">Önerilen</string>
+    <string name="setup_options_title">Analiz ayarları</string>
+    <string name="setup_options_body">Bu ayarlar yalnızca bu sohbet için geçerli.</string>
+    <string name="setup_count_profanity">Küfürleri say</string>
+    <string name="setup_count_profanity_body">Kim ne kadar küfür ediyor, karnede ve istatistikte gösterilsin.</string>
+    <string name="setup_censor">Küfür sansürü</string>
+    <string name="setup_censor_on_body">Açık: küfürlerin kendisi hiçbir yerde görünmez, yalnızca sayıları gösterilir.</string>
+    <string name="setup_censor_off_body">Kapalı: en sık küfürler karnede ve kelime listelerinde görünebilir.</string>
+    <string name="setup_change_later">Bu ayarları istediğin zaman Karne’deki sohbet türü düğmesinden değiştirebilirsin.</string>
+    <string name="setup_show_report">Karneyi gör</string>
+
+    <!-- Yeni karne kartları -->
+    <string name="hl_love_detail_family">En sevecen: %1$s</string>
+    <string name="hl_profanity_title">Küfür şampiyonu</string>
+    <string name="hl_profanity_detail">%1$s küfür</string>
+    <string name="hl_profanity_detail_uncensored">%1$s küfür · en sevdiği: “%2$s”</string>
+    <string name="hl_after_hours_title">Mesai dışı en aktif</string>
+    <string name="hl_after_hours_detail">Akşam ve hafta sonu %1$s mesaj · grubun mesai dışı oranı: %2$s</string>
+    <string name="hl_questions_title">Soru ustası</string>
+    <string name="hl_questions_detail">%1$s mesajında soru sordu</string>
+    <string name="hl_documents_title">Dosya paylaşan</string>
+    <string name="hl_documents_detail">%1$s belge gönderdi</string>
+    <string name="hl_photos_title">Fotoğrafçı</string>
+    <string name="hl_photos_title_family">Aile fotoğrafçısı</string>
+    <string name="hl_photos_detail">%1$s fotoğraf paylaştı</string>
+    <string name="hl_voice_title">Podcast’çi</string>
+    <string name="hl_voice_detail">%1$s sesli mesaj</string>
+    <string name="hl_links_title">Link avcısı</string>
+    <string name="hl_links_title_family">Haber kaynağı</string>
+    <string name="hl_links_detail">%1$s bağlantı paylaştı</string>
+
+    <!-- İstatistik ekleri -->
+    <string name="counter_profanity">Küfür</string>
+    <string name="counter_after_hours">Mesai dışı</string>
+    <string name="counter_scroll_hint">Tüm kişileri görmek için tabloyu yana kaydır</string>
+    <string name="person_after_hours">Mesai dışı mesaj</string>
+    <string name="person_profanity">Küfür</string>
+    <string name="person_top_swears">Sık küfürler</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_hint">İlk açılışta telefonunun temasına uyar.</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="settings_intro">Tanıtım</string>
+    <string name="settings_intro_hint">Uygulamanın kısa tanıtımını yeniden izle.</string>
+    <string name="settings_intro_replay">Tanıtımı göster</string>
+
+    <!-- Tanıtım -->
+    <string name="onboarding_skip">Atla</string>
+    <string name="onboarding_next">İleri</string>
+    <string name="onboarding_start">Başla</string>
+    <string name="onboarding_welcome_title">Yazki’ye hoş geldin</string>
+    <string name="onboarding_welcome_body">WhatsApp sohbetlerini Türkçe anlayan, eğlenceli bir sohbet analizi. sjsj’den “kusura bakma”ya kadar.</string>
+    <string name="onboarding_export_title">Sohbetini aktar</string>
+    <string name="onboarding_export_body">WhatsApp’tan birkaç dokunuşla.</string>
+    <string name="onboarding_export_step1">Sohbeti aç, ⋮ menüsüne dokun</string>
+    <string name="onboarding_export_step2">Diğer → Sohbeti dışa aktar → Medya olmadan</string>
+    <string name="onboarding_export_step3">Paylaş menüsünde Yazki’yi seç</string>
+    <string name="onboarding_types_title">Türünü seç</string>
+    <string name="onboarding_types_body">Arkadaş, sevgili, aile ya da iş grubu; karnen sohbetin türüne göre hazırlanır.</string>
+    <string name="onboarding_explore_title">Karneni keşfet</string>
+    <string name="onboarding_explore_body">Öne çıkanlar, hikâye modu, saat saat istatistikler ve kayıtlı sohbetlerin. Sonuçlar eğlence amaçlıdır.</string>
+
+    <!-- Süreler -->
+    <string name="duration_seconds">%1$d sn</string>
+    <string name="duration_minutes">%1$d dk</string>
+    <string name="duration_hours">%1$d sa %2$d dk</string>
+    <string name="duration_days">%1$d gün %2$d sa</string>
+</resources>
