@@ -133,8 +133,8 @@ Sıcak yollarda regex yerine elle yazılmış taramalar kullanılır.
 **Gereksinimler:** güncel Android Studio, JDK 17 veya üstü, Android SDK 37.
 
 ```bash
-git clone https://github.com/<kullanici-adi>/yazki.git
-cd yazki
+git clone https://github.com/BiliciHamza/Yazki-sohbet-analiz.git
+cd Yazki-sohbet-analiz
 
 # hata ayıklama sürümünü bağlı cihaza / emülatöre kur
 ./gradlew :app:installDebug
